@@ -1,0 +1,65 @@
+# React Native
+node_modules/
+.buckconfig
+.gradle/
+.idea/
+.vscode/
+build/
+ios/Pods/
+*.keystore
+*.jks
+
+# React Native End
+# Expo
+.expo/
+.expo-shared/
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+
+# Sentry
+.sentryclirc
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Build generated files
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Android
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/tasks.xml
+.idea/
+.externalNativeBuild
+.cxx
+local.properties
+*.log
+
+# Editor directories and files
+.vscode/
+.history
