@@ -15,6 +15,7 @@ import {
   addPlayer,
   removePlayer,
   generateRandomTeams,
+  resetNewPlayer,
 } from "./utils/useModalFunctions";
 
 const ModalCreateList = ({ isOpen, setIsOpen, setScores }) => {
@@ -38,6 +39,7 @@ const ModalCreateList = ({ isOpen, setIsOpen, setScores }) => {
     if (isOpen) {
       modalizeRef.current?.open();
       setPlayers([]);
+      resetNewPlayer(setNewPlayer);
     }
   }, [isOpen]);
 
